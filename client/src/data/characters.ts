@@ -394,7 +394,7 @@ const yara: Character = {
   description: "Yara é uma draconata que encontrou seu caminho entre as feras e as florestas. Sua conexão com a natureza é profunda, e ela se transforma em urso ou lobo para proteger seus aliados.",
   essence: "Guardiã feroz da natureza, Yara é a ponte entre o mundo civilizado e o selvagem. Seus olhos de dragão veem além das aparências.",
   quote: "A floresta não pede permissão para crescer. Eu também não.",
-  artUrl: "",
+  artUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310419663029969796/5e7QM9V4aGBt6fZvi3YMN7/yara-art_5b0c8aae.png",
   accentColor: "#4a8c5c",
 };
 
@@ -542,7 +542,7 @@ const sabrina: Character = {
   description: "Sabrina é uma tiefling que fez um pacto sombrio com uma entidade poderosa. Seus poderes vêm com um preço, mas ela pretende pagar nos seus próprios termos.",
   essence: "Carismática e perigosa, Sabrina caminha entre a luz e as sombras. Seu pacto é sua força — e talvez sua perdição.",
   quote: "Todo poder tem um preço. O segredo é fazer alguém pagar por você.",
-  artUrl: "",
+  artUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310419663029969796/5e7QM9V4aGBt6fZvi3YMN7/sabrina-art_261471d8.png",
   accentColor: "#8b3a62",
 };
 
@@ -691,7 +691,7 @@ const thihashian: Character = {
   description: "Thihashian é uma tiefling jovem cujo sangue carrega a essência de dragões antigos. Chamas dançam em seus olhos quando ela conjura, e sua magia é tão selvagem quanto seu espírito.",
   essence: "Fogo e determinação. Thihashian é a prova viva de que o destino não é escrito em pedra — é forjado em chamas.",
   quote: "Meu sangue é fogo. Minha vontade é mais forte.",
-  artUrl: "",
+  artUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310419663029969796/5e7QM9V4aGBt6fZvi3YMN7/thihashian-art_0afc7e1e.png",
   accentColor: "#c44b2b",
 };
 
@@ -810,7 +810,7 @@ const krom: Character = {
   description: "Krom é um veterano de guerra endurecido pelo tempo e pelas batalhas. Aos 39 anos, sua força bruta é lendária, mas é sua experiência que o torna verdadeiramente perigoso.",
   essence: "Guerreiro implacável, Krom é a muralha entre seus aliados e o perigo. Sua fúria é uma tempestade controlada — até deixar de ser.",
   quote: "Palavras não param uma espada. Eu paro.",
-  artUrl: "",
+  artUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310419663029969796/5e7QM9V4aGBt6fZvi3YMN7/krom-art_a401b978.png",
   accentColor: "#8b4513",
 };
 
