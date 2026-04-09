@@ -691,7 +691,7 @@ const thihashian: Character = {
   description: "Thihashian é uma tiefling jovem cujo sangue carrega a essência de dragões antigos. Chamas dançam em seus olhos quando ela conjura, e sua magia é tão selvagem quanto seu espírito.",
   essence: "Fogo e determinação. Thihashian é a prova viva de que o destino não é escrito em pedra — é forjado em chamas.",
   quote: "Meu sangue é fogo. Minha vontade é mais forte.",
-  artUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310419663029969796/5e7QM9V4aGBt6fZvi3YMN7/thihashian-art_0afc7e1e.png",
+  artUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310419663029969796/5e7QM9V4aGBt6fZvi3YMN7/thihashian-art-v2-fmiFD8LpAK33N4SXK7bZ5C.webp",
   accentColor: "#c44b2b",
 };
 
