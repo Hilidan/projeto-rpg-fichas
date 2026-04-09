@@ -159,6 +159,35 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Quick Rules Link */}
+      <section className="container pb-12 pt-4">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 1.2 }}
+          className="max-w-5xl mx-auto"
+        >
+          <Link href="/regras">
+            <div className="group relative overflow-hidden rounded-lg gold-border p-6 text-center transition-all duration-300 hover:gold-glow hover:-translate-y-1"
+              style={{ background: 'linear-gradient(135deg, oklch(0.14 0.018 250) 0%, oklch(0.11 0.02 250) 100%)' }}
+            >
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-[#c9a84c] opacity-40 group-hover:opacity-80 transition-opacity" />
+              <h3 className="text-xl md:text-2xl font-bold gold-text-glow group-hover:text-[#e0c872] transition-colors" style={{ fontFamily: "'Cinzel', serif" }}>
+                Regras Rápidas
+              </h3>
+              <p className="mt-2 text-sm text-[#e8dcc8]/60" style={{ fontFamily: "'Crimson Text', serif" }}>
+                Guia interativo das mecânicas essenciais de D&D 5e — consulte durante o jogo!
+              </p>
+              <div className="mt-4 pt-3 border-t border-[#c9a84c]/20">
+                <span className="text-xs uppercase tracking-widest text-[#c9a84c]/50 group-hover:text-[#c9a84c]/80 transition-colors" style={{ fontFamily: "'Cinzel', serif" }}>
+                  Abrir Guia
+                </span>
+              </div>
+            </div>
+          </Link>
+        </motion.div>
+      </section>
+
       {/* Footer */}
       <footer className="border-t border-[#c9a84c]/10 py-8 text-center">
         <img src={DIVIDER} alt="" className="w-48 mx-auto mb-4 opacity-40" />
