@@ -19,3 +19,8 @@
 - [x] Escrever testes vitest para as rotas tRPC (9 testes passando)
 - [x] Testar fluxo completo (criar, salvar, visualizar, editar)
 - [x] Salvar checkpoint e entregar
+- [x] Adicionar botão de login/logout na Home com estilo Grimório Arcano
+- [x] Condicionar exibição de "Criar Personagem" e "Meus Personagens" ao login
+- [x] Manter personagens originais e Regras Rápidas acessíveis sem login
+- [x] Proteger rotas /criar-personagem e /meus-personagens (redirecionar para login)
+- [x] Testar fluxo com e sem login
