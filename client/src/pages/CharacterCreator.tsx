@@ -1,6 +1,6 @@
 /**
  * Criador de Personagens — Formulário interativo multi-step
- * Estilo "Grimório Arcano" consistente com o resto do site.
+ * Estilo "Desertor Arcano" consistente com o resto do site.
  * Steps: 1) Dados Básicos  2) Atributos  3) Perícias  4) Combate & Equipamento  5) Personalidade & Foto  6) Revisão
  */
 import { useState, useMemo, useCallback } from "react";

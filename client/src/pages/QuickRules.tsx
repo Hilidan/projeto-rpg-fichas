@@ -1,5 +1,5 @@
 /*
- * Design: "Grimório Arcano" — Dark Fantasy
+ * Design: "Desertor Arcano" — Dark Fantasy
  * Página de Regras Rápidas: guia interativo das mecânicas de D&D 5e
  * para jogadores iniciantes consultarem durante o jogo.
  * Usa Tabs para categorias e Accordions para tópicos dentro de cada categoria.

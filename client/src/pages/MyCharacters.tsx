@@ -1,6 +1,6 @@
 /**
  * Meus Personagens — Lista de fichas customizadas do usuário logado
- * Estilo "Grimório Arcano"
+ * Estilo "Desertor Arcano"
  */
 import { Link } from "wouter";
 import { useAuth } from "@/_core/hooks/useAuth";

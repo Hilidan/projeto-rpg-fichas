@@ -1,5 +1,5 @@
 /*
- * Design: "Grimório Arcano" — Dark Fantasy
+ * Design: "Desertor Arcano" — Dark Fantasy
  * Página inicial: cards dos personagens como entradas de um grimório.
  * Fundo escuro com padrão arcano, hero banner, cards com borda dourada.
  * 
@@ -45,7 +45,7 @@ export default function Home() {
             className="text-sm gold-text tracking-wider"
             style={{ fontFamily: "'Cinzel', serif" }}
           >
-            Grimório Arcano
+            Desertor Arcano
           </span>
           <div className="flex items-center gap-3">
             {loading ? (
@@ -86,7 +86,7 @@ export default function Home() {
         <div className="relative w-full flex flex-col items-center justify-center py-12 md:py-20">
           <img
             src={HERO_BANNER}
-            alt="Grimório Arcano"
+            alt="Desertor Arcano"
             className="w-full max-w-4xl mx-auto object-contain px-4"
           />
           <motion.div
@@ -288,7 +288,7 @@ export default function Home() {
                 style={{ fontFamily: "'Cinzel', serif" }}
               >
                 <LogIn className="w-4 h-4" />
-                Entrar no Grimório
+                Entrar no Desertor Arcano
               </a>
             </div>
           </motion.div>

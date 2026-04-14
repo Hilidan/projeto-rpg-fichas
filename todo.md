@@ -24,3 +24,4 @@
 - [x] Manter personagens originais e Regras Rápidas acessíveis sem login
 - [x] Proteger rotas /criar-personagem e /meus-personagens (redirecionar para login)
 - [x] Testar fluxo com e sem login
+- [x] Renomear "Grimório Arcano" para "Desertor Arcano" em todo o site

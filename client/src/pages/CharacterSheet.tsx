@@ -1,5 +1,5 @@
 /*
- * Design: "Grimório Arcano" — Dark Fantasy
+ * Design: "Desertor Arcano" — Dark Fantasy
  * Ficha de personagem completa, responsiva, com seções claras para iniciantes.
  * Layout: coluna única no mobile, duas colunas em desktop para dados + arte.
  */
@@ -164,7 +164,7 @@ export default function CharacterSheet() {
           <h1 className="text-3xl gold-text-glow mb-4" style={{ fontFamily: "'Cinzel', serif" }}>Personagem não encontrado</h1>
           <Link href="/">
             <span className="text-[#c9a84c] hover:text-[#e0c872] transition-colors flex items-center gap-2 justify-center">
-              <ArrowLeft className="w-4 h-4" /> Voltar ao Grimório
+              <ArrowLeft className="w-4 h-4" /> Voltar ao Início
             </span>
           </Link>
         </div>
@@ -189,7 +189,7 @@ export default function CharacterSheet() {
           <Link href="/">
             <span className="text-[#c9a84c] hover:text-[#e0c872] transition-colors flex items-center gap-2 text-sm">
               <ArrowLeft className="w-4 h-4" />
-              <span className="hidden sm:inline" style={{ fontFamily: "'Cinzel', serif" }}>Voltar ao Grimório</span>
+              <span className="hidden sm:inline" style={{ fontFamily: "'Cinzel', serif" }}>Voltar ao Início</span>
               <span className="sm:hidden" style={{ fontFamily: "'Cinzel', serif" }}>Voltar</span>
             </span>
           </Link>

@@ -1,5 +1,5 @@
 /*
- * Design: "Grimório Arcano" — Dark Fantasy
+ * Design: "Desertor Arcano" — Dark Fantasy
  * Dados completos dos 5 personagens de D&D 5e, nível 3.
  * Atributos distribuídos via Standard Array (15, 14, 13, 12, 10, 8) + bônus raciais.
  * Bônus de Proficiência no nível 3: +2
