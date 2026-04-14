@@ -6,7 +6,7 @@
 import { Link } from "wouter";
 import { characters } from "@/data/characters";
 import { motion } from "framer-motion";
-import { Shield, Flame, Leaf, Skull, Sword } from "lucide-react";
+import { Shield, Flame, Leaf, Skull, Sword, Plus, User } from "lucide-react";
 
 const HERO_BANNER = "https://d2xsxph8kpxj0f.cloudfront.net/310419663029969796/5e7QM9V4aGBt6fZvi3YMN7/hero-banner-HemJrKiadaGYEHGLSJEciv.webp";
 const BG_PATTERN = "https://d2xsxph8kpxj0f.cloudfront.net/310419663029969796/5e7QM9V4aGBt6fZvi3YMN7/page-bg-pattern-FkoGmkKLPZJaJsc78xzxmy.webp";
@@ -156,6 +156,52 @@ export default function Home() {
               </Link>
             </motion.div>
           ))}
+        </div>
+      </section>
+
+      {/* Character Creator & My Characters */}
+      <section className="container pb-6 pt-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-5xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 1.1 }}
+          >
+            <Link href="/criar-personagem">
+              <div className="group relative overflow-hidden rounded-lg gold-border p-6 text-center transition-all duration-300 hover:gold-glow hover:-translate-y-1"
+                style={{ background: 'linear-gradient(135deg, oklch(0.14 0.018 250) 0%, oklch(0.11 0.02 250) 100%)' }}
+              >
+                <div className="absolute top-0 left-0 right-0 h-0.5 bg-green-500 opacity-40 group-hover:opacity-80 transition-opacity" />
+                <Plus className="w-8 h-8 text-[#c9a84c]/60 mx-auto mb-2 group-hover:text-[#c9a84c] transition-colors" />
+                <h3 className="text-lg md:text-xl font-bold gold-text-glow group-hover:text-[#e0c872] transition-colors" style={{ fontFamily: "'Cinzel', serif" }}>
+                  Criar Personagem
+                </h3>
+                <p className="mt-1 text-xs text-[#e8dcc8]/50" style={{ fontFamily: "'Crimson Text', serif" }}>
+                  Monte sua ficha com as regras de D&D 5e
+                </p>
+              </div>
+            </Link>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 1.15 }}
+          >
+            <Link href="/meus-personagens">
+              <div className="group relative overflow-hidden rounded-lg gold-border p-6 text-center transition-all duration-300 hover:gold-glow hover:-translate-y-1"
+                style={{ background: 'linear-gradient(135deg, oklch(0.14 0.018 250) 0%, oklch(0.11 0.02 250) 100%)' }}
+              >
+                <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-500 opacity-40 group-hover:opacity-80 transition-opacity" />
+                <User className="w-8 h-8 text-[#c9a84c]/60 mx-auto mb-2 group-hover:text-[#c9a84c] transition-colors" />
+                <h3 className="text-lg md:text-xl font-bold gold-text-glow group-hover:text-[#e0c872] transition-colors" style={{ fontFamily: "'Cinzel', serif" }}>
+                  Meus Personagens
+                </h3>
+                <p className="mt-1 text-xs text-[#e8dcc8]/50" style={{ fontFamily: "'Crimson Text', serif" }}>
+                  Veja e gerencie suas fichas salvas
+                </p>
+              </div>
+            </Link>
+          </motion.div>
         </div>
       </section>
 

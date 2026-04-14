@@ -1,0 +1,21 @@
+# Criador de Personagens — TODO
+
+- [x] Upgrade do projeto para web-db-user (backend + DB + auth + S3)
+- [x] Ler README do upgrade e entender a nova estrutura
+- [x] Criar schema do banco de dados para fichas de personagens customizados
+- [x] Criar rotas API (CRUD) para fichas
+- [x] Criar rota API para upload de foto do personagem
+- [x] Criar página frontend do Criador de Personagens com formulário completo
+  - [x] Dados básicos (nome, raça, classe, nível, idade, descrição)
+  - [x] Atributos (FOR, DES, CON, INT, SAB, CAR) com cálculo automático de modificadores
+  - [x] Perícias (baseadas na classe escolhida)
+  - [x] Magias (baseadas na classe e nível)
+  - [x] Habilidades de classe e raça
+  - [x] Upload de foto
+  - [x] Equipamentos
+- [x] Exibir ficha gerada no mesmo estilo visual das fichas existentes
+- [x] Página de listagem de fichas criadas pelo usuário
+- [x] Integrar navegação (link na Home)
+- [x] Escrever testes vitest para as rotas tRPC (9 testes passando)
+- [x] Testar fluxo completo (criar, salvar, visualizar, editar)
+- [x] Salvar checkpoint e entregar

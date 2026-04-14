@@ -7,6 +7,9 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import CharacterSheet from "./pages/CharacterSheet";
 import QuickRules from "./pages/QuickRules";
+import CharacterCreator from "./pages/CharacterCreator";
+import MyCharacters from "./pages/MyCharacters";
+import CustomCharacterSheet from "./pages/CustomCharacterSheet";
 
 function Router() {
   return (
@@ -14,6 +17,9 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/personagem/:id" component={CharacterSheet} />
       <Route path="/regras" component={QuickRules} />
+      <Route path="/criar-personagem" component={CharacterCreator} />
+      <Route path="/meus-personagens" component={MyCharacters} />
+      <Route path="/ficha-custom/:id" component={CustomCharacterSheet} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
