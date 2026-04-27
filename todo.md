@@ -25,3 +25,5 @@
 - [x] Proteger rotas /criar-personagem e /meus-personagens (redirecionar para login)
 - [x] Testar fluxo com e sem login
 - [x] Renomear "Grimório Arcano" para "Desertor Arcano" em todo o site
+- [x] Habilitar zoom (pinch-to-zoom) no mobile removendo maximum-scale do viewport
+- [x] Aumentar tamanho das fontes globais para melhor legibilidade no mobile e desktop

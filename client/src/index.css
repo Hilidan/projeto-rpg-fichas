@@ -90,6 +90,20 @@
   body {
     @apply bg-background text-foreground;
     font-family: "Crimson Text", serif;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  @media (min-width: 768px) {
+    body {
+      font-size: 19px;
+      line-height: 1.65;
+    }
+  }
+  @media (min-width: 1024px) {
+    body {
+      font-size: 20px;
+      line-height: 1.7;
+    }
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: "Cinzel", serif;
@@ -177,6 +191,37 @@
   .attribute-box:hover {
     box-shadow: 0 0 15px rgba(201, 168, 76, 0.2);
     transform: translateY(-2px);
+  }
+}
+
+/* ─── Font size scaling for readability ─── */
+/* Increase small text sizes globally for better mobile/desktop readability */
+.text-xs {
+  font-size: 0.85rem !important;
+  line-height: 1.5 !important;
+}
+.text-sm {
+  font-size: 0.95rem !important;
+  line-height: 1.55 !important;
+}
+@media (min-width: 768px) {
+  .text-xs {
+    font-size: 0.875rem !important;
+    line-height: 1.5 !important;
+  }
+  .text-sm {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+  }
+}
+@media (min-width: 1024px) {
+  .text-xs {
+    font-size: 0.9rem !important;
+    line-height: 1.5 !important;
+  }
+  .text-sm {
+    font-size: 1.05rem !important;
+    line-height: 1.6 !important;
   }
 }
 
